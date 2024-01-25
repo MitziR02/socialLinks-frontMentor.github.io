@@ -1,0 +1,25 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkGrey: hsl(0, 0%, 12%);
+    --offBlack: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+    --fontInter: 'inter', sans-serif;
+}
+
+body{
+    background-color: var(--offBlack);
+    color: var(--white);
+    font-family: var(--fontInter);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
