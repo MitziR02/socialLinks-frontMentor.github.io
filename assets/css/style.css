@@ -9,7 +9,7 @@
     border-radius: 16px;
     background-color: var(--darkGrey);
 
-    margin: 2rem 0;
+    margin: 2rem 0 2rem;
 }
 .avatar{
     border-radius: 50%;
@@ -32,6 +32,7 @@ h2{
 
 h3{
     font-size: 1rem;
+    color: #999999;
 }
 
 .list-links{
@@ -52,3 +53,46 @@ h3{
     background-color: var(--grey);
     border-radius: 0.5rem;
 }
+
+.links-item:hover{
+    background-color: var(--green);
+    cursor: pointer;
+    color: black;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.attribution{
+    width: 90%;
+    text-align: center;
+}
+
+.footer-attribution{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+@media screen and (min-width: 800px){
+    .card{
+     width: 400px;
+    }
+ }
+
+ @media screen and (max-width: 800px){
+    footer{
+     display: none;
+    }
+
+    .links-item{
+        margin: .7rem 0;
+    }
+ }

@@ -16,10 +16,19 @@ body{
     background-color: var(--offBlack);
     color: var(--white);
     font-family: var(--fontInter);
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
 }
